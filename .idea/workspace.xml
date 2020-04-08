@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6e31f182-5562-4786-82ea-f7aa2bba8053" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vue-admin-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/check-versions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/dev-client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/dev-server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vue-loader.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/webpack.base.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/webpack.dev.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/webpack.prod.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/dev.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/prod.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/alert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/autocomplete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/badge.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/breadcrumb-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/breadcrumb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/button-group.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/carousel-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/cascader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/checkbox-group.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/checkbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/col.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/collapse-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/collapse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/color-picker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/date-picker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/dropdown-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/dropdown-menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/dropdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/form-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/input-number.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/input.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/loading.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/menu-item-group.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/menu-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/message-box.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/message.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/notification.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/option-group.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/option.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/popover.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/progress.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/radio-button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/radio-group.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/radio.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/rate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/row.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/scrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/select-dropdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/step.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/steps.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/submenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/switch.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/tab-pane.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/table-column.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/tag.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/time-picker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/time-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/upload.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/alert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/autocomplete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/badge.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/breadcrumb-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/breadcrumb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/button-group.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/carousel-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/cascader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/checkbox-group.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/checkbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/col.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/collapse-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/collapse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/color-picker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/date-picker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/dropdown-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/dropdown-menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/dropdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/form-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/input-number.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/input.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/loading.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/menu-item-group.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/menu-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/message-box.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/message.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/notification.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/option-group.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/option.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/popover.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/progress.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/radio-button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/radio-group.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/radio.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/rate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/row.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/scrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/select-dropdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/step.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/steps.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/submenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/switch.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/tab-pane.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/table-column.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/tag.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/time-picker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/time-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/upload.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/js/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mock/data/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mock/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mock/mock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/404.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Main.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/charts/echarts.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/nav1/Form.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/nav1/Table.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/nav1/user.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/nav2/Page4.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/nav2/Page5.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/nav3/Page6.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vuex/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vuex/getters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vuex/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/.gitkeep" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/nav1/Table.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-82">
+              <caret line="207" column="14" selection-start-line="207" selection-start-column="14" selection-end-line="207" selection-end-column="14" />
+              <folding>
+                <element signature="n#el-form#0;n#el-dialog#0;n#section#0;n#template#0;n#!!top" />
+                <element signature="n#el-dialog#1;n#section#0;n#template#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/nav2/Page4.vue">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/nav2/Page5.vue">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/nav3/Page6.vue">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/Home.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2874">
+              <caret line="193" column="4" selection-start-line="193" selection-start-column="4" selection-end-line="193" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/vuex/actions.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/vuex/getters.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/vuex/store.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/api/index.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:/maven构建工具3/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="F:\maven构建工具3\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1300" />
+    <option name="height" value="810" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="vue-admin-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-admin-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue-admin-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-admin-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue-admin-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-admin-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue-admin-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-admin-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="charts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue-admin-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-admin-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="nav1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue-admin-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-admin-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="nav2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue-admin-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-admin-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="nav3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue-admin-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-admin-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="vuex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue-admin-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-admin-master" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.other" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e31f182-5562-4786-82ea-f7aa2bba8053" name="Default Changelist" comment="" />
+      <created>1586264872883</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586264872883</updated>
+      <workItem from="1586264874398" duration="7397000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7397000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="JRebel" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Designer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16420911" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32956153" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="JRebel Executor" />
+      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26770538" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/404.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Main.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/nav1/user.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mock/data/user.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/charts/echarts.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#el-col#0;n#el-row#0;n#section#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#el-col#1;n#el-row#0;n#section#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#el-col#2;n#el-row#0;n#section#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#el-col#3;n#el-row#0;n#section#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/nav1/Form.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/vars.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/js/util.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/api.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/nav2/Page4.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/nav2/Page5.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/nav3/Page6.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vuex/actions.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vuex/getters.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vuex/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2874">
+          <caret line="193" column="4" selection-start-line="193" selection-start-column="4" selection-end-line="193" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/nav1/Table.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-82">
+          <caret line="207" column="14" selection-start-line="207" selection-start-column="14" selection-end-line="207" selection-end-column="14" />
+          <folding>
+            <element signature="n#el-form#0;n#el-dialog#0;n#section#0;n#template#0;n#!!top" />
+            <element signature="n#el-dialog#1;n#section#0;n#template#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
